@@ -5,7 +5,7 @@
 ## Notes-ruRU: Быстрый пропуск задания
 ## Author: ZamestoTV
 ## IconTexture: Interface\AddOns\ZamestoTV_TimeReflect\Icons\goblin
-## Version: 1.5.5
+## Version: 1.7.5
 ## SavedVariables: AutoGossipSavedVarson
 
 AutoSelect.lua
