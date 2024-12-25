@@ -1,11 +1,11 @@
-## Interface: 110005
+## Interface: 110007
 ## Title: ZamestoTV: A Time to Reflect
 ## Title-ruRU: ZamestoTV: Время для размышлений
 ## Notes: Skipping the quest
 ## Notes-ruRU: Быстрый пропуск задания
 ## Author: ZamestoTV
 ## IconTexture: Interface\AddOns\ZamestoTV_TimeReflect\Icons\goblin
-## Version: 1.7.5
+## Version: 1.8.5
 ## SavedVariables: AutoGossipSavedVarson
 
 AutoSelect.lua
