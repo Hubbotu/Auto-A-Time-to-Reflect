@@ -23,24 +23,24 @@ frame:SetScript("OnEvent", function(_, event)
         local gossipOptions = C_GossipInfo.GetAvailableQuests()
         for i = 1, #gossipOptions do
             local questID = gossipOptions[i].questID
-            if questID == 43461 or questID == 43323 then
+            if questID == 85481 or questID == 89197 or questID == 86342 or questID == 90545 or questID == 89194 or questID == 89065 or questID == 88981 or questID == 85721 or questID == 85462 or questID == 89254 or questID == 85470 or questID == 89192 or questID == 89057 then
                 C_GossipInfo.SelectAvailableQuest(questID)
                 break
             end
         end
     elseif event == "QUEST_DETAIL" then
         local questID = GetQuestID()
-        if questID == 43461 or questID == 43323 then
+        if questID == 85481 or questID == 89197 or questID == 86342 or questID == 90545 or questID == 89194 or questID == 89065 or questID == 88981 or questID == 85721 or questID == 85462 or questID == 89254 or questID == 85470 or questID == 89192 or questID == 89057 then
             AcceptAndTurnInQuest(questID)
         end
     elseif event == "QUEST_PROGRESS" then
         local questID = GetQuestID()
-        if questID == 43461 or questID == 43323 then
+        if questID == 85481 or questID == 89197 or questID == 86342 or questID == 90545 or questID == 89194 or questID == 89065 or questID == 88981 or questID == 85721 or questID == 85462 or questID == 89254 or questID == 85470 or questID == 89192 or questID == 89057 then
             CompleteQuest()
         end
     elseif event == "QUEST_COMPLETE" then
         local questID = GetQuestID()
-        if questID == 43461 or questID == 43323 then
+        if questID == 85481 or questID == 89197 or questID == 86342 or questID == 90545 or questID == 89194 or questID == 89065 or questID == 88981 or questID == 85721 or questID == 85462 or questID == 89254 or questID == 85470 or questID == 89192 or questID == 89057 then
             GetQuestReward(1)
         end
     end

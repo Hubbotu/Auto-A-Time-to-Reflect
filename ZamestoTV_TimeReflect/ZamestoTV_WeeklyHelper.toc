@@ -1,0 +1,19 @@
+## Interface: 110205
+## Title: Weekly Helper
+## Title-ruRU: Еженедельный Помощник
+## Notes: Weekly Quest Assistant
+## Notes-ruRU: Помощник по еженедельным квестам
+## Author: ZamestoTV
+## IconTexture: Interface\AddOns\ZamestoTV_WeeklyHelper\Icons\goblin
+## Version: 1.07
+
+## Category-enUS: Addons ZamestoTV
+## Category-ruRU: Аддоны ZamestoTV
+
+JobG99.lua
+AutoQuest.lua
+db.lua
+zamro.lua
+
+
+
